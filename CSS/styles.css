@@ -1,0 +1,247 @@
+/* --cultured: #fafafaff;
+--android-green: #a0c63fff;
+--apple-green: #8db542ff;
+--beige: #d1d9c3ff;
+--eerie-black: #1f1f1fff; */
+
+body {
+  background: #fafafaff;
+}
+
+.top-branding {
+  display: inline-block;
+}
+
+.top-nav a {
+  color: black;
+}
+
+.top-nav a:hover {
+  transform: scale(1.1);
+}
+
+.hero-section {
+  background: #a0c63fff;
+  padding-top: 40px;
+}
+
+.hero-section .container {
+  position: relative;
+}
+
+.hero-section img {
+  padding: 0 70px;
+}
+
+.hero-section .fas {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 0 1em;
+}
+
+/* ------------------ SUBHERO ----------------- */
+
+.subhero-section {
+  margin: 40px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* .subhero-section .col {
+  border: 1px solid #000;
+} */
+
+.subhero-section img {
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.subhero-section .circle-border {
+  width: max-content;
+  margin: 0 auto;
+  background: #8db542ff;
+  border-radius: 50%;
+  border: solid #fffeff 10px;
+  box-shadow: 0px 0px 1px 1px #eee;
+}
+.subhero-section h2 {
+  font-size: 1.25rem;
+  margin: 5px auto 0;
+}
+
+/* ------------- END HERO SECTION ------------- */
+
+/* ----------------- CALLOUTS ----------------- */
+.callouts-section {
+  margin-bottom: 30px;
+}
+
+.callouts-section h2 {
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  margin-left: 20px;
+}
+
+.callouts-section em {
+  color: #a0c63fff;
+}
+
+.callouts-section .col {
+  /* border: 1px solid red; */
+  border: solid 1px #efefef;
+  background: white;
+  padding: 0 15px 0 0;
+  margin-right: 10px;
+}
+
+.callout-copy {
+  /* border: 1px solid #000; */
+  font-size: 0.75rem;
+  padding: 0 20px;
+  width: 70%;
+  background: white;
+}
+.callout-copy h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.callout-button {
+  display: inline-block;
+  background: #8db542ff;
+  color: white;
+  padding: 2px 20px;
+  margin: 0 5px;
+}
+
+.callouts-section .img-container {
+  background: black;
+  position: relative;
+}
+.callouts-section .callout-img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.magnify-icon {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  border-radius: 50%;
+  border: solid #ccc 3px;
+  opacity: 0;
+  transition-duration: 0.8s;
+}
+.callouts-section .img-container:hover > * {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* ---------------- ADVERTISING --------------- */
+.advertising em {
+  color: #a0c63fff;
+  text-transform: uppercase;
+}
+.advertising h2 {
+  text-transform: uppercase;
+  font-size: 1.35rem;
+  margin-bottom: 35px;
+  margin-left: 20px;
+}
+
+.up-arrow {
+  width: 20px;
+  border-radius: 50%;
+  /* display: inline-block; */
+  margin-top: 20px;
+}
+
+/* -------------- FOOTER SECTION -------------- */
+footer {
+  padding-top: 20px;
+  background: white;
+}
+footer h2 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+footer p {
+  margin: 25px auto;
+}
+
+.archives {
+  padding: 0;
+}
+
+.archives li {
+  list-style-type: none;
+  padding: 10px 0;
+  border-bottom: solid #ccc 1px;
+}
+
+.archives a {
+  color: black;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contact-group {
+  margin: 30px auto;
+}
+
+.newsletter label {
+  display: block;
+}
+
+.newsletter form {
+  position: relative;
+  width: max-content;
+  padding-bottom: 40px;
+}
+
+.newsletter input {
+  display: block;
+  margin-bottom: 20px;
+  background: #f3f3f3;
+  border: none;
+  border-bottom: solid 1px gray;
+}
+
+.newsletter button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px 15px;
+  background: #8db542ff;
+  color: white;
+  border: none;
+}
+
+/* --------------- COPYRIGHT BAR -------------- */
+
+.copyright-bar {
+  margin-top: 20px;
+  padding: 5px 0;
+  background: #1f1f1fff;
+  color: white;
+  font-size: 0.7rem;
+}
+
+.copyright-bar a {
+  display: inline-block;
+  padding: 2px 6px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: white;
+}
